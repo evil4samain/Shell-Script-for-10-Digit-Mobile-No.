@@ -1,8 +1,8 @@
-echo "Enter the phone number : "
-read phoneNumber
-if [[ "$phoneNumber" == [0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9] ]]
+echo "Enter the phone number **********: "
+read Phonenumber
+if [[ "$Phonenumber" == [0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9] ]]
     then
-    echo "The phone number is: $phoneNumber" 
+    echo "The phone number is: $Phonenumber" 
     else
-    echo " $phoneNumber is Invalid phone No."
+    echo " $Phonenumber is Invalid phone No. kindly check Again"
 fi
