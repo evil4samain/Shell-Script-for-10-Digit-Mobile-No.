@@ -1,4 +1,4 @@
-echo "Enter the phone number **********: "
+echo "Please enter the phone number **********: "
 read Phonenumber
 if [[ "$Phonenumber" == [0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9] ]]
     then
